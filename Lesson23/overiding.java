@@ -17,6 +17,7 @@ class Emloyee{
 class teacher extends Emloyee {
     String kolichestvoUchenikov;
     void uchit(){System.out.println("Uchit");}
+    @Override
     void eat(){System.out.println("Kushaet uchitel");}
 
 }
