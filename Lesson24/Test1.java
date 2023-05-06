@@ -20,6 +20,7 @@ class Test1{
         mammal.sleep();
     }
 }
+
 abstract class Animal{
     String name;
 
